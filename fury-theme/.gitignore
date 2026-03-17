@@ -1,0 +1,31 @@
+# Конфигурация WordPress (содержит пароли!)
+wp-config.php
+
+# Загрузки и кэш
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+
+# Composer и npm
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Логи и временные файлы
+*.log
+error_log
+debug.log
